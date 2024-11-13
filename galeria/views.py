@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from galeria.models import Fotografia
+from .models import Fotografia
 from django.contrib import messages
+from .forms import *
 
 
 def index(request):
